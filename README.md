@@ -6,3 +6,4 @@ Simple projects just to familiarise myself with Python ecosystem.
 
 - [step-01](./step-01): sample code setting up a virtual environment
 - [step-02](./step-02): same code as [step-01](./step-01), just moving the code to load a page to a separate module
+- [step-03](./step-03): same code as [step-01](./step-01), but using `uv` instead of `venv` (directly) and `pip`
