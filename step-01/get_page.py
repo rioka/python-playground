@@ -13,7 +13,7 @@ def grab(url: str) -> None:
 if __name__ == "__main__":
     # argv[0] is the script name
     if len(sys.argv) < 2:
-        print(f"Usage: python {sys.argv[0]}.py <url>")
+        print(f"Usage: python {sys.argv[0]} <url>")
         sys.exit(1)
 
     url = sys.argv[1]

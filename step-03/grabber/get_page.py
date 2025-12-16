@@ -1,7 +1,7 @@
 import requests
 import sys
 
-def grab(url: str) -> str:
+def grab(url: str) -> str | None:
 
     response = requests.get(url)
     if response.status_code != 200:
